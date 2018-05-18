@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500');
+
+body, html{
+    margin:0 auto;
+    position: relative;
+}
+
+.btn-pink{
+    width: 262px;
+    height: 46px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, rgba(255,0,68,1) 0%, rgba(255,0,68,1) 29%, rgba(245,28,109,1) 51%, rgba(255,0,68,1) 75%, rgba(255,0,68,1) 100%);
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+header{
+    height: -webkit-fill-available;
+    /* height:-moz-available; */
+    height:100%;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#img-header{
+    background-image: url("../img/1-bg.png");
+    height:-webkit-fill-available;
+    /* height:-moz-available; */
+    background-size: cover;
+    margin-right: 178px;
+    margin-top: 60px;
+}
+
+#menu{
+    position: absolute;
+    right: 76px;
+    top: 50px;
+}
+
+#menu span{
+    background-image: url("../img/menu.png");
+    display: block;
+    height:27px;
+    width: 40px;
+    background-size: cover;
+}
+
+#menu a{
+    display: inherit;
+    text-align: center;
+    text-decoration: none;
+    color: #7a7a7a;
+    padding-top: 35px;
+    line-height: 30px;
+}
+
+#img-header h1 {
+    padding: 50px 170px;
+    width: max-content;
+    background-color: #fff;
+    position: absolute;
+    font-size: 22px;
+    color: #7a7a7a;
+    bottom: 140px;
+    right: 160px;
+    box-shadow: 2px 5px 5px rgba(68, 68, 68, 0.2);
+    letter-spacing: 20px;
+}
+
+#img-header span {
+    position: absolute;
+    bottom: 34px;
+    right: 226px;
+    text-align: center;
+    color: #fff;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-style: italic;
+}
+
+.reserve {
+    height: 315px;
+    text-align: center;
+    background-image: url(../img/faixa.png);
+    background-repeat: no-repeat;
+    background-position: -438px;
+    background-size: auto;
+}
+
+.reserve h2 {
+    font-size: 26px;
+    padding-top: 115px;
+    padding-right: 600px;
+    color: #bcbcbc;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    margin-bottom: -20px;
+}
+
+.reserve p {
+    display: inline-block;
+    letter-spacing: 20px;
+    font-size: 24px;
+    padding-left: 175px;
+    color: #ff0044;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.reserve a {
+    background-image: url(../img/liquid-button.png);
+    width: 438px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 100px;
+}
+
+.reserve a:after {
+    background-image: url("../img/agenda-icon.png");
+    height: 32px;
+    width: 30px;
+    position: absolute;
+    content: '';
+    margin-top: 31px;
+    margin-left: 43px;
+    line-height: 100px;
+}
+
+.fotos #slider {
+    width: 100%;
+    height: 742px;
+}
+
+#slider div img{
+    max-height: 735px;
+    width: auto;
+}
+
+#suites {
+    background-image: url("../img/slider-suite.png");
+    margin-top: 60px;
+    margin-right: 15px;
+    margin-left: 15px;
+    height: 981px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#suites .suites {
+    width: 710px;
+    height: 740px;
+    background: linear-gradient(to right, rgba(89,89,89,1) 18%, rgba(89,89,89,1) 39%, rgba(56,56,56,1) 94%, rgba(56,56,56,1) 100%);
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+    text-align: left;
+    padding-top: 280px;
+    padding-left: 175px;
+}
+
+#suites h2 {
+    font-size: 68px;
+    color: #fff;
+    letter-spacing: 26px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+#suites button {
+    margin-top: 90px;
+}
+
+#suites .suites:before {
+    border: 2px solid #ff0044;
+    position: absolute;
+    content: '';
+    width: 82px;
+    top: 57px;
+    left: -30px;
+}
+
+.menu-gastronomia{
+    position: relative;
+    margin-top: 85px;
+    width:100%;
+    display: block;
+    height: 700px;
+}
+
+.menu-gastronomia h2, .menu-gastronomia p{
+    position: absolute;
+}
+
+.menu-gastronomia div{
+    position: relative;
+}
+
+.menu-gastronomia div:first-child{
+    float: left;
+    width: 50%;
+}
+
+.menu-gastronomia div:nth-child(2){
+    float: right;
+    width: 50%;
+}
+
+.menu-gastronomia img{
+    width: 100%;
+    /* height: auto; */
+    height: 700px;
+}
+
+.menu-gastronomia h2 {
+    color: #fff;
+    /* padding-top: 222px;
+    padding-left: 290px; */
+    top: 20%;
+    right: 26%;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-style: italic;
+}
+
+.menu-gastronomia span{
+    padding-left: 85px;
+    letter-spacing: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.menu-gastronomia .texto {
+    position: absolute;
+    left: 40px;
+    color: #fff;
+    font-size: 22px;
+    width: -webkit-fill-available;
+    width:-moz-available;
+    top: 345px;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-style: italic;
+}
+
+.menu-gastronomia .texto p:before {
+    background-image: url(../img/logo-luv.png);
+    content: '';
+    position: absolute;
+    bottom: 35px;
+    right: 40px;
+    width: 79px;
+    height: 38px;
+    background-size: 73px 51px;
+}
+
+.texto p{
+    background-color: #2c2b2b;
+    padding: 102px 75px;
+}
+
+.menu-gastronomia div:nth-child(2) p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.menu-gastronomia div:nth-child(2) p:nth-child(2){
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-style: italic;
+    letter-spacing: 15px;
+}
+
+.menu-gastronomia div:nth-child(2) p:first-child, .menu-gastronomia div:nth-child(2) p:nth-child(2){
+    font-size: 32px;
+    color: #fff;
+    bottom: 70px;
+    left: 20px;
+} 
+
+.menu-gastronomia div:nth-child(2) p:nth-child(2){
+    bottom: 40px;
+}
+
+#seja-cliente{
+    height: 532px;
+    position: relative;
+    margin-top: 50px;
+    background-image: url("../img/fidelidade.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.seja-cliente {
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+
+/* (img-height / img-width * width) padding-top para a altura da imagem acompanhar o background */
+
+#seja-cliente .seja-cliente-text{
+    position: absolute;
+    top: 20%;
+    color: #fff;
+    width: 100%;
+    text-align: right;
+    font-size: 32px;
+    right: 260px;
+}
+
+#seja-cliente .seja-cliente-text p{
+    display: inline-block;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-style: italic;
+}
+
+#seja-cliente .seja-cliente-text p span{
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+div.seja-cliente{
+    position: relative;
+    display: block;
+    float: right;
+}
+
+.aproveite-frase{
+    position: absolute;
+    top: 62%;
+    color: #b2b1b1;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    right: 227px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.divisor{
+    width: 84px;
+    height: 4px;
+    background-color: #ff0044;
+    position: absolute;
+    top: 52%;
+    right: 447px;
+}
+
+
+#seja-cliente button{
+    position: absolute;
+    top: 76%;
+    right: 350px;
+}
+
+#localizacao{
+    width: 49%;
+    position: relative;
+    height: 718px;
+    margin: 70px 0;
+    box-shadow: 2px 5px 5px rgba(68, 68, 68, 0.2);
+}
+
+#localizacao div{
+    width: 100%;
+    height: 667px;
+    display: block;
+    margin: 50px 0;
+    position: relative;
+}
+
+#mapa-google{
+    width: 50%;
+    height: 718px;
+    display: block;
+    margin: 70px 5px;
+    position: relative;
+}
+
+#googleMap{
+    width: 100%;
+    height: 718px;
+    /* display: block;
+    margin: 70px 5px;
+    position: relative; */
+}
+
+.flex-localizacao{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+
+#localizacao div:first-child{
+    float:left;
+    background-image: url("../img/box.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: right;
+    padding-right: 217px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#localizacao div:first-child div{
+    width:100%;
+    padding-left: 75px;
+}
+
+#localizacao div:first-child div button{
+    width:420px;
+}
+
+#localizacao div:first-child h2{
+    padding-top: 285px;
+    text-transform: uppercase;
+    font-size: 29px;
+    letter-spacing: 15px;
+    color: #7d7d7d;
+    font-weight: 300;
+}
+
+#localizacao div:first-child p{
+    color:#a1a1a1;
+    font-size: 18px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-weight: 400;
+}
+
+#localizacao div:nth-child(2){
+    float:right;
+    background-color: rgb(80, 80, 116);
+
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    /* bottom:0; */
+    top: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: #2c2c2c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+footer div:first-child{
+    background-color: #313131;
+}
+
+footer div:first-child h2 {
+    letter-spacing: 20px;
+    padding: 50px 0;
+    margin: 0;
+    background-color: #313131;
+    color: #fff;
+    font-weight: 300;
+}
+
+footer div:nth-child(2){
+    color:#fff;
+    font-size: 15px;
+    padding-top: 55px;
+}
+
+.icon{
+    margin-left: 73px;
+}
+
+footer div:nth-child(2) span {
+    letter-spacing: 20px;
+    padding-left: 20px;
+}
+
+footer nav {
+    margin-top: 90px;
+}
+
+footer div:nth-child(3) {
+    margin-bottom: 60px;
+}
+
+footer div:nth-child(3) p{
+    margin-top:20px;
+    color: #fff;
+    font-size: 20px;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-style: italic;
+}
+
+footer div:nth-child(3) img:nth-child(2){
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+footer div:nth-child(4){
+    padding: 45px 0;
+    background-color: #252525;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+footer div:nth-child(4) img{
+    width:208px;
+    height: 44px;
+}
+
+footer ul li{
+    list-style: none;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+    line-height: 47px;
+}

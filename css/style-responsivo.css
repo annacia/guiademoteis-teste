@@ -1,0 +1,225 @@
+@media screen and (max-width:984px) {
+    .nondesk{   
+        display: none;
+    }
+
+    body, html {
+        margin: 0 auto;
+        position: relative;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    header{
+        padding: 0!important;
+        width: 100%;
+    }
+
+    #menu{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+        /* right: -146px; */
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+    }
+
+    #menu span{
+        float: right;
+        position: relative;
+    }
+
+    #menu a{
+        padding: 0;
+        padding-right: 36px;
+        letter-spacing: 20px;
+    }
+
+    #img-header{
+        margin: 95px 15px;
+        width: 90%;
+        position: relative;
+        height: -webkit-fill-available;
+        background-size: inherit;
+        background-repeat: no-repeat;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #img-header h1{
+        padding: 5% 0;
+        font-size: 10px;
+        right: -10px;
+        bottom: 300px;
+        width: 103%;
+        text-align: center;
+    }
+
+    .reserve{
+        height: 400px;
+    }
+
+    .reserve h2{
+        padding: 0;
+        margin-bottom: 11px;
+        text-align: left;
+        padding-left: 26px;
+    }
+
+    .reserve p{
+        padding: 0;
+    }
+
+    .reserve a{
+        margin-left: 112px;
+        margin-top: 44px;
+    }
+
+    .fotos #slider{
+        height: 445px;
+    }
+
+    #suites{
+        margin-top: 332px;
+    }
+
+    #suites .suites{
+        width: 73%;
+        height: 50%;
+        padding: 0;
+        vertical-align: middle;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #suites .suites h2{
+        font-size: 25px;
+        padding: 0;
+        text-align: center;
+        position: relative;
+        margin-top: 143px;
+    }
+
+    #suites .suites button{
+        margin: 20px;
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+        margin-left: -6px;
+    }
+
+    .menu-gastronomia{
+        height: 1400px;
+        width: 100%;
+    }
+
+    .menu-gastronomia div{
+        width:100%!important;
+    }
+
+    .menu-gastronomia .texto{
+        width: -webkit-fill-available!important;
+        width: -moz-available!important;
+    }
+
+    #seja-cliente{
+        background-position: -507px;
+        height: 868px;
+    }
+
+    .seja-cliente-text{
+        top: unset!important;
+        bottom: 245px;
+        right: 90px!important;
+    }
+
+    .divisor{
+        bottom: 275px;
+        top: unset;
+        right: 298px;
+    }
+
+    .aproveite-frase{
+        top: unset;
+        bottom: 200px;
+        right: 45px;
+    }
+
+    #seja-cliente button{
+        bottom: 59px;
+        right: 189px;
+        top: unset;
+    }
+
+    .flex-localizacao{
+        flex-direction: column-reverse;
+        align-items: unset;
+    }
+
+    #localizacao{
+        width: 100%;
+        height: 408px;
+        margin-top: 0;
+    }
+
+    #localizacao div{
+        height: 408px;
+        padding: 0!important;
+        text-align: center!important;
+    }
+
+    #localizacao div div{
+        height: 667px;
+    }
+
+    #localizacao h2{
+        padding: 0!important;
+        color: #ff0044!important;
+    }
+
+    #localizacao p{
+        text-align: center;
+    }
+
+    #localizacao div div{
+        padding: 0;
+    }
+
+    #mapa-google{
+        width: 100%;
+        height: 408px;
+        margin-bottom: 0;
+    }
+
+    #googleMap{
+        position: relative;
+        overflow: hidden;
+        height: 408px;
+    }
+
+    footer div:first-child{
+        display: none;
+    }
+
+    footer div:nth-child(2){
+        font-size: 15px;
+    }
+
+    footer div:nth-child(2) span {
+        letter-spacing: 5px;
+        padding-left: 20px;
+    }
+
+    footer nav{
+        display:none;
+    }
+
+    footer div:nth-child(3){
+        display: none;
+    }
+
+    footer div:nth-child(4) p{
+        font-size: 16px;
+    }
+}
